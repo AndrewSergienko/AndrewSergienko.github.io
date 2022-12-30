@@ -12,7 +12,7 @@ body{
 	gap: 10px;
 }
 .skill{
-	width: 160px;
+	width: 150px;
 	border-radius: 10px;
 	padding: 10px;
 }
@@ -32,7 +32,7 @@ body{
 }
 .icon{
 	height: 75px;
-	max-width: 150px;
+	max-width: 140px;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -75,4 +75,9 @@ h4, h5, h6, p, li{
 }
 .language{
 	background: #852EBA;
+}
+@media(max-width: 480px){
+	.project{
+		width: 310px;
+	}
 }
