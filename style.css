@@ -89,7 +89,7 @@ h4, h5, h6, p, li{
 		max-width: 290px;
 	}
 }
-@media(max-width:  375px){
+@media(max-width:  390px){
 	.skill{
 		width: 130px;
 	}
