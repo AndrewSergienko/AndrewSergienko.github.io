@@ -1,0 +1,78 @@
+body{
+	background: linear-gradient(#FF5E62, #FF9966);
+}
+.card{
+	border-radius: 10px;
+	background: #121212;
+}
+.skills{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.skill{
+	width: 160px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.skill-value{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 110px;
+  	margin-top: 10px;
+}
+.fa-star{
+	font-size: 20px;
+	color: gray;
+}
+.checked{
+	color: orange;
+}
+.icon{
+	height: 75px;
+	max-width: 150px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+h4, h5, h6, p, li{
+	color: white;
+}
+.projects{
+	height: 500px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.project{
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 410px;
+	width: 363px;
+	margin: 0 20px;
+	padding: 10px;
+	position: relative;
+}
+.down{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	column-gap: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: absolute;
+	bottom: 10px;
+}
+.backend{
+	background: #004156;
+}
+.devops{
+	background: #1E3C00;
+}
+.frontend{
+	background: #BC0022;
+}
+.language{
+	background: #852EBA;
+}
