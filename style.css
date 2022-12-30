@@ -81,3 +81,22 @@ h4, h5, h6, p, li{
 		width: 310px;
 	}
 }
+@media(max-width: 400px){
+	.skill{
+		width: 145px;
+	}
+	.project{
+		max-width: 290px;
+	}
+}
+@media(max-width:  375px){
+	.skill{
+		width: 130px;
+	}
+	.icon{
+		max-width: 120px;
+	}
+	.project{
+		max-width: 260px;
+	}
+}
