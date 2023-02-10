@@ -12,6 +12,9 @@
 	width: 150px;
 	border-radius: 10px;
 	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .skill-value{
 	display: block;
@@ -35,7 +38,6 @@
   	margin-right: auto;
 }
 .projects{
-	height: 500px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
